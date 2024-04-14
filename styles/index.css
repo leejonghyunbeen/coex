@@ -74,6 +74,39 @@ main{
    padding-top: 49.2px;
 }
 
+
+main section .main_banner {
+    display: flex; justify-content: space-between;
+    padding: 0 34px;
+    padding-top: 67px;
+    padding-bottom: 86px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 main .guide {
     width: 100%;
     padding: 0 33.7px;

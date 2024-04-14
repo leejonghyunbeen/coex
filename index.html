@@ -6,6 +6,12 @@
     <title>코엑스 VISITOR</title>
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/index.css">
+    <!--플러그인 필수 css cdn 연결-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css">
+    <!--플러그인 필수 JS cdn 연결-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.js"></script>
 </head>
 <body>
     <header>
@@ -33,49 +39,68 @@
         </div>    
     </header>
     <main>
-        <div class="main_contens">
-            <div class="guide">
-                <div class="guide_left">
-                    <div class="guide_info">
-                        <p>전시장 및 회의실 임대 정보</p>
+        <section>
+            <div class="main_banner">
+                <div class="main_text">
+                    <div class="text_head"><p>What’s On</p></div>
+                    <div class="title">
+                        <h1>2024 월드IT쇼</h1>
                     </div>
-                    <div class="guide_title">
-                        <h1>대관안내</h1>
+                    <div class="banner_date">
+                        <p>2024.04.17-2024.04.19</p>
                     </div>
-                    <div class="map">
-                        <img src="./images/ico_map.png" alt="">
+                    <div class="text_arrow">
+                        <img src="./images/ico_hero_arrow.svg" alt="#">
                     </div>
                 </div>
-                <div class="guide_right">
-                    <div class="guide_info">
-                        <p>GUIDE</p>
-                        <span>Navigating Your Visit: <br>
-                            Tips and Resources
-                        </span>
+                <div class="main_img">
+                    <img src="./images/국문.jpg" alt="#">
+                </div>
+            </div>
+            <div class="main_contens">
+                <div class="guide">
+                    <div class="guide_left">
+                        <div class="guide_info">
+                            <p>전시장 및 회의실 임대 정보</p>
+                        </div>
+                        <div class="guide_title">
+                            <h1>대관안내</h1>
+                        </div>
+                        <div class="map">
+                            <img src="./images/ico_map.png" alt="">
+                        </div>
                     </div>
-                    <div class="guide_list">
-                        <div class="list_first list_contents">
-                            <a href="#">
-                                <img class="parking" src="./images/ico_guide_1.svg" alt="">
-                                <h2>주차안내</h2>
-                            </a>
+                    <div class="guide_right">
+                        <div class="guide_info">
+                            <p>GUIDE</p>
+                            <span>Navigating Your Visit: <br>
+                                Tips and Resources
+                            </span>
                         </div>
-                        <div class="list_second list_contents">
-                            <a href="#">
-                                <img class="map_sub" src="./images/ico_guide_2.svg" alt="">
-                                <h2>오시는 길</h2>
-                            </a>
-                        </div>
-                        <div class="list_third list_contents">
-                            <a href="#">
-                                <img class="amenities" src="./images/ico_guide_3.svg" alt="">
-                                <h2>층별 편의시설</h2>
-                            </a>
+                        <div class="guide_list">
+                            <div class="list_first list_contents">
+                                <a href="#">
+                                    <img class="parking" src="./images/ico_guide_1.svg" alt="">
+                                    <h2>주차안내</h2>
+                                </a>
+                            </div>
+                            <div class="list_second list_contents">
+                                <a href="#">
+                                    <img class="map_sub" src="./images/ico_guide_2.svg" alt="">
+                                    <h2>오시는 길</h2>
+                                </a>
+                            </div>
+                            <div class="list_third list_contents">
+                                <a href="#">
+                                    <img class="amenities" src="./images/ico_guide_3.svg" alt="">
+                                    <h2>층별 편의시설</h2>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
 </body>
 </html>
